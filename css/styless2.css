@@ -6,7 +6,7 @@
     text-decoration: none
 }
 
-;
+
 
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -28,14 +28,18 @@ h1 {
 }
 
 nav {
-    background-color: #68238363;
     height: 10vh;
+    padding-right: 5vh;
 }
+
+header div{background-color: #68238363;
+color: white;}
 
 header {
     font-size: 2vh;
-}
 
+}
+.navbar a{color: white;}
 h1 {
     font-size: 20px;
     color: white;
@@ -45,11 +49,13 @@ h1 {
 nav {
     display: flex;
     justify-content: space-between;
+    font-size: 2vh;
 }
 
 nav img {
     height: 100%;
 }
+
 
 .botones-header {
     display: flex;
@@ -78,7 +84,7 @@ nav img {
 
 .titulo-header h2 {
     font-size: 10vh;
-    padding: vh;
+
 }
 
 .titulo-header div {
@@ -102,12 +108,18 @@ nav img {
     padding: 5vh;
 }
 
+
+.horarios span{
+    font-size: 20vh ;
+}
+
 @media(min-width: 375px) {
 
     .horarios{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap:20vw
 }
 }
 
@@ -119,6 +131,7 @@ nav img {
 
 .renovacion__info {
     padding-top: 3vh;
+    padding-left: 3vh;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -128,11 +141,15 @@ nav img {
 
 .renovacion__info h3 {
     font-size: 2rem;
+    
 }
 
-.renovacion__img {
-    height: 100%;
+.renovacion__img img {
+    width: 100%;
+    background-size: cover
+    
 }
+.diff__img img{width: 100%;;background-size: cover}
 
 @media(min-width: 375px) {
     .renovacion {
@@ -141,8 +158,7 @@ nav img {
         align-items: space-evenly;
         justify-content: center;
         padding-left: 5vh;
-    }
-
+    }    
     .diff {
         display: flex;
         flex-direction: row;
@@ -158,23 +174,15 @@ nav img {
     .renovacion img {
         height: 50vh;
     }
-
-    .diff img {
-        height: 50vh
+    .diff__img img{
+        height: 50vh;
     }
-
-    ;
 
     .renovacion__info {
         padding-left: 5vh;
     }
+footer ul{gap: 5vw;}
 
-
-}
-
-.diff {
-    object-fit: cover;
-    color: #682383;
 }
 
 .diff__info {
@@ -184,9 +192,11 @@ nav img {
     flex-direction: column;
     align-items: space-around;
     justify-content: space-between;
+    color: #682383;
+    padding-left: 3vh;
 }
 
-footer {
+footer{
     background-color: #682383;
     color: white;
     display: flex;
@@ -196,18 +206,20 @@ footer {
     padding-bottom: 2vh;
 }
 
-footer ul {
+footer ul{
     display: flex;
-    gap: 5vw;
+    gap: 3vw;
     padding-top: 2vh;
 }
 
-footer ul a {
+footer ul a{
     color: white;
     gap: 20px;
     text-decoration: none;
 }
 
-footer hr {
+footer hr{
     width: 25vh;
 }
+
+nav .navbar{ background-color: #68238363;}
