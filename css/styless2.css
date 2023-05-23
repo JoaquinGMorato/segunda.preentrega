@@ -1,0 +1,213 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none
+}
+
+;
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(../images/imagenheader.jpeg);
+    height: 90vh;
+    background-size: cover;
+}
+
+h1 {
+    display: none;
+}
+
+nav {
+    background-color: #68238363;
+    height: 10vh;
+}
+
+header {
+    font-size: 2vh;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 100%;
+}
+
+.botones-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    list-style: none;
+    height: 80vh;
+    padding-top: 3.5vh;
+}
+
+.titulo-header {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 10%;
+
+    justify-items: space-evenly;
+    align-items: left;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    gap: 3vh;
+}
+
+.titulo-header h2 {
+    font-size: 10vh;
+    padding: vh;
+}
+
+.titulo-header div {
+    padding-bottom: 5vh;
+}
+
+.botones-header li a {
+    padding: 5vh;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+}
+
+.horarios {
+    color: #682383;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 5vh;
+}
+
+@media(min-width: 375px) {
+
+    .horarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+.renovacion {
+    background-color: #d16ef8;
+
+}
+
+.renovacion__info {
+    padding-top: 3vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: space-between;
+}
+
+.renovacion__info h3 {
+    font-size: 2rem;
+}
+
+.renovacion__img {
+    height: 100%;
+}
+
+@media(min-width: 375px) {
+    .renovacion {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: space-evenly;
+        justify-content: center;
+        padding-left: 5vh;
+    }
+
+    .diff {
+        display: flex;
+        flex-direction: row;
+        align-items: space-evenly;
+        justify-content: center;
+
+    }
+
+    .diff__info {
+        padding-left: 5vh;
+    }
+
+    .renovacion img {
+        height: 50vh;
+    }
+
+    .diff img {
+        height: 50vh
+    }
+
+    ;
+
+    .renovacion__info {
+        padding-left: 5vh;
+    }
+
+
+}
+
+.diff {
+    object-fit: cover;
+    color: #682383;
+}
+
+.diff__info {
+    padding-top: 3vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #682383;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vh;
+    padding-bottom: 2vh;
+}
+
+footer ul {
+    display: flex;
+    gap: 5vw;
+    padding-top: 2vh;
+}
+
+footer ul a {
+    color: white;
+    gap: 20px;
+    text-decoration: none;
+}
+
+footer hr {
+    width: 25vh;
+}
