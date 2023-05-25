@@ -28,11 +28,11 @@ h1 {
 nav {
     height: 10vh;
     padding-right: 5vh;
-    background-color: #68238363;
+    padding-top: 0px;
 }
 
 header div{background-color: #68238363;
-color: white;}
+color: white; padding-top: 0px;}
 
 header {
     font-size: 2vh;
