@@ -3,10 +3,8 @@
     padding: 0px;
     margin: 0px;
     list-style: none;
-    text-decoration: none
+    text-decoration: none;
 }
-
-
 
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -30,6 +28,7 @@ h1 {
 nav {
     height: 10vh;
     padding-right: 5vh;
+    background-color: #68238363;
 }
 
 header div{background-color: #68238363;
@@ -99,7 +98,7 @@ nav img {
     font-size: 2vh;
 }
 
-.horarios {
+.horarios{
     color: #682383;
     list-style: none;
     font-size: 1rem;
@@ -124,42 +123,42 @@ nav img {
 }
 
 
-.renovacion {
+.renovacion, .niveles{
     background-color: #d16ef8;
 
 }
 
-.renovacion__info {
+.renovacion__info, .niveles__info {
     padding-top: 3vh;
     padding-left: 3vh;
-    height: 40vh;
+    
     display: flex;
     flex-direction: column;
     align-items: space-around;
     justify-content: space-between;
+    padding-bottom: 3vh;
 }
 
-.renovacion__info h3 {
+.renovacion__info h3 , .niveles__info h3 {
     font-size: 2rem;
-    
+   
 }
 
-.renovacion__img img {
+.renovacion__img img , .niveles__img img {
     width: 100%;
-    background-size: cover
-    
+    background-size: cover    
 }
-.diff__img img{width: 100%;;background-size: cover}
+.diff__img img , .calor__img img{width: 100%;;background-size: cover}
 
 @media(min-width: 375px) {
-    .renovacion {
+    .renovacion, .niveles {
         display: flex;
         flex-direction: row-reverse;
         align-items: space-evenly;
         justify-content: center;
         padding-left: 5vh;
     }    
-    .diff {
+    .diff , .calor{
         display: flex;
         flex-direction: row;
         align-items: space-evenly;
@@ -167,36 +166,43 @@ nav img {
 
     }
 
-    .diff__info {
+    .diff__info, .calor__info {
         padding-left: 5vh;
+        height: 40vh;
     }
 
-    .renovacion img {
+    .renovacion img , .niveles img {
         height: 50vh;
     }
-    .diff__img img{
+    .diff__img img, .calor__img img{
         height: 50vh;
     }
 
-    .renovacion__info {
+    .renovacion__info, .niveles__info {
         padding-left: 5vh;
+        height: 40vh;
     }
 footer ul{gap: 5vw;}
 
 }
 
-.diff__info {
+.diff__info, .calor__info {
     padding-top: 3vh;
-    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: space-around;
     justify-content: space-between;
     color: #682383;
     padding-left: 3vh;
+    padding-bottom: 3vh;
+}
+.diff__info h3 , .calor__info h3{
+    font-size:2rem;
 }
 
+
 footer{
+    padding-top: 2vh;
     background-color: #682383;
     color: white;
     display: flex;
