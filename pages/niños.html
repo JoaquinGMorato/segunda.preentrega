@@ -1,70 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Niños|V 11 Club de escalada</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head> 
 
 <body>
-    <header>
-
-        <nav>
-            <h1>V_ONCE Club de escalada</h1>
-            <img src="./images/logo.jpeg" alt="" height="94" width="128">
-            <ul class="botones-header">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="./escalada.html">ESCALADA</a></li>
-                <li><a href="./clases.html">CLASES</a></li>
-                <li><a href="./niños.html">NIÑOS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
-        <section class="titulo-header">
-            <h2>LOS MAS PEQUES<br> TAMBIEN PUEDEN</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatem iure velit ducimus veniam
-                askjhdlkahsfhfasdjjfsdasfdasdf
-
-            </p>
-        </section>
+    <header class="navbar navbar-expand-sm bg-body-tertiary d-flex align-items-start">
+        <div class="navv container-fluid w-100 p-3">
+            <a class="navbar-brand" href="#">
+                <img class="navbar-brand" height="70vh" src="../images/LOGO_WEB.png" alt="">
+            </a>
+            <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" viewBox="0 0 16 16">
+                    <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h11A1.5 1.5 0 0 1 15 2.5v1a.5.5 0 0 1-1 0v-1A.5.5 0 0 0 13 1H2.5A1.5 1.5 0 0 0 1 2.5v1a.5.5 0 0 1-1 0v-1a1.5 1.5 0 0 1 1.5-1.5zM1 5.5A1.5 1.5 0 0 1 2.5 4h11A1.5 1.5 0 0 1 15 5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v1a.5.5 0 0 1-1 0v-1zm0 6A1.5 1.5 0 0 1 2.5 10h11a1.5 1.5 0 0 1 1.5 1.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v1a.5.5 0 0 1-1 0v-1z"/>
+                  </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-white justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./escalada.html">ESCALADA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./clases.html">CLASES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./niños.html">NIÑOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
         
-            <section>
-                
-                <div>
-                    <h3>HORARIOS</h3>
-                    <ul>
-                        <li>Lunes 17 a 22</li>
-                        <li>Martes 17 a 22</li>
-                        <li>Miercoles 17 a 22</li>
-                        <li>Jueves 17 a 22</li>
-                        <li>Viernes 17 a 22</li>
-                        <li>Sabado 17 a 22</li>
-                        <li>Domingo 17 a 22</li>
+            <section class="horarios" >
+                <span><i class="bi bi-watch"></i></span>
+                <div class="horarios">
+                    <h3 class="horarios__titulo" >HORARIOS</h3>
+                    <ul class="horarios__lista" >
+                        <li class="horarios__item">Martes 11 a 13</li>
+                        <li class="horarios__item">Jueves 11 a 13</li>
+                        <li class="horarios__item">Sabado 11 a 13</li>
+                       
                     </ul>
                 </div>
             </section>
 
-            <section>
-                <div>
+            <section class="cardvioleta">
+                <div class="cardvioleta__info">
                     <h3>UN DIA DE ESCALADA EN FAMILIA</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi corrupti quasi vitae, magni sint
-                        esse illum distinctio, ea, quos incidunt voluptate quam aliquam quidem eos illo fugit
-                        temporibus. Libero, aliquam.</p>
+                    <p>Los ultimos domingo del mes se realiza la actividad donde los padres pueden venir a acompañar a sus hijos y escalar en familia</p>
                 </div>
-                <div><img src="../images/imagenheader.jpeg" alt=""></div>
+                <div class="cardvioleta__img"><img src="../images/imagenheader.jpeg" alt=""></div>
             </section>
-            <section>
-                <div><img src="../images/imagenheader.jpeg" alt=""></div>
-                <div>
+            <section class="cardblanca">
+                <div class="cardblanca__img"><img src="../images/imagenheader.jpeg" alt=""></div>
+                <div class="cardblanca__info">
                     <h3>DIVERSION ANTE TODO</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus hic ipsam laudantium,
-                        nobis aperiam fuga corporis, deleniti praesentium eum illo laboriosam repudiandae cupiditate
-                        sint molestias necessitatibus reiciendis explicabo quidem.</p>
+                    <p>Las clases se enfocan en aprender el movimiento y tecnica correcta para la escalada, pero tratando siempre de darle un efoque divertido para poder mantener la atenciony el interes de los niños durante la duracion de la clase,
+                        formando tambien un grupo agradable y amistoso para todos. 
+                    </p>
 
                 </div>
             </section>
@@ -84,7 +97,7 @@
     </p>
     
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

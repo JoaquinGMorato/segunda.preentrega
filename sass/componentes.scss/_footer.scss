@@ -1,0 +1,40 @@
+footer {
+    padding-top: 2vh;
+    background-color: $color-principal;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vh;
+    padding-bottom: 1vh;
+
+
+    ul {
+        display: flex;
+        gap: 5vw;
+        padding-top: 2vh;
+
+        a {
+            color: white;
+            gap: 3vw;
+            text-decoration: none;
+
+            &:hover {
+                background-color: white;
+                color: $color-principal;
+                padding: 1vh;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    hr {
+        width: 40vh;
+        height: 3px;
+
+    }
+
+    p {
+        font-size: .9rem;
+    }
+}

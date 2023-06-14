@@ -1,0 +1,54 @@
+.contacto{
+    color: $color-principal;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.redes{ background-color: $color-principal;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 10px;
+    padding: 5vh;
+    div{display:flex; gap: 10vw; align-items: center; justify-content: center;}
+}
+
+.llegar{color: $color-principal;
+    font-size: 1.5rem;
+padding: 4vh;
+text-align:center;
+h3{font-size: 2rem;padding-top: 3vh;}
+i{font-size: 2rem; font-weight: 400;}
+div{  
+    ul{
+        li{display: flex;
+    flex-direction: column;
+    list-style-type:none;
+    padding: 0;
+    
+}
+}
+}}
+
+@media(min-width: 768px){
+
+.contacto{
+    display: flex;justify-content: center;
+    align-items:center;
+    gap:5vw;
+    padding: 5vh;
+}
+
+.transportes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10vw
+        ;
+    
+}
+
+}
