@@ -2,21 +2,22 @@ header {
     background-image: url(../images/imagenheader.jpeg);
     height: 90vh;
     background-size: cover;
-    font-size: 2vh;
+    font-size: .8rem;
     padding-top: 0px;
     margin-top: 0px;
     color: white;
-    div{display: flex;align-items: space-between;}
+    div{display: flex;align-items: space-between;
+    img{width: 70px;
+        height: 70px;
+        object-fit: cover;
+
+    }}
 
 
     &:visited {
         color: white;
     }
-
-    h1 {
-        display: none;
-    }
-
+ 
     .navv {
 
         color: white;
@@ -42,7 +43,7 @@ header {
 
         ul {
             justify-content: end;
-            gap: 30px;
+            gap: 40px;
 
 
 
@@ -64,9 +65,12 @@ header {
         background-color: $color-principal;
         border-radius: 30px;
         padding: 3px;
+        &:visited {
+            color: white
+        }
     }
 }
 
 .boton {
-    background-color: $color-principal;
+    background-color: $color-principal; color:white; fill: white;
 }

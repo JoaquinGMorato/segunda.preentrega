@@ -3,7 +3,7 @@
     img {
         width: 100%;
         object-fit: cover;
-        height: 100%;
+        height: 50vh;
     }
 
     &__info {
@@ -42,5 +42,5 @@
         }
 
         img {
-            object-fit: cover;width:50vw; height:100%
+            object-fit: cover;width:50vw; height:50vh
     }}}

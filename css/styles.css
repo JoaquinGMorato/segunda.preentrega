@@ -34,7 +34,7 @@ footer ul a:hover {
   border-radius: 10px;
 }
 footer hr {
-  width: 40vh;
+  width: 80vw;
   height: 3px;
 }
 footer p {
@@ -45,7 +45,7 @@ header {
   background-image: url(../images/imagenheader.jpeg);
   height: 90vh;
   background-size: cover;
-  font-size: 2vh;
+  font-size: 0.8rem;
   padding-top: 0px;
   margin-top: 0px;
   color: white;
@@ -54,11 +54,13 @@ header div {
   display: flex;
   align-items: space-between;
 }
+header div img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
 header:visited {
   color: white;
-}
-header h1 {
-  display: none;
 }
 header .navv {
   color: white;
@@ -77,7 +79,7 @@ header nav img {
 }
 header nav ul {
   justify-content: end;
-  gap: 30px;
+  gap: 40px;
 }
 header nav ul:visited {
   color: white;
@@ -93,9 +95,14 @@ header nav ul:visited {
   border-radius: 30px;
   padding: 3px;
 }
+.nav-item a:hover:visited {
+  color: white;
+}
 
 .boton {
   background-color: #682383;
+  color: white;
+  fill: white;
 }
 
 .cardvioleta {
@@ -104,7 +111,7 @@ header nav ul:visited {
 .cardvioleta img {
   width: 100%;
   object-fit: cover;
-  height: 100%;
+  height: 50vh;
 }
 .cardvioleta__info {
   padding-top: 3vh;
@@ -139,7 +146,7 @@ header nav ul:visited {
   .cardvioleta img {
     object-fit: cover;
     width: 50vw;
-    height: 100%;
+    height: 50vh;
   }
 }
 .cardblanca {
@@ -149,7 +156,7 @@ header nav ul:visited {
 .cardblanca img {
   width: 100%;
   object-fit: cover;
-  height: 100%;
+  height: 50vh;
 }
 .cardblanca__info {
   padding-top: 3vh;
@@ -184,71 +191,9 @@ header nav ul:visited {
   .cardblanca img {
     object-fit: cover;
     width: 50vw;
-    height: 100%;
+    height: 50vh;
   }
 }
-.header-botones {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  font-family: "Josefin Sans", sans-serif;
-  color: white;
-  list-style: none;
-  height: 80vh;
-  padding-top: 2vh;
-}
-
-.header-titulo {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  padding-left: 15vh;
-  justify-items: space-evenly;
-  align-items: left;
-  padding-bottom: 10vh;
-  gap: 3vh;
-  background-color: none;
-}
-.header-titulo h2 {
-  font-size: 10vh;
-  padding: 1vh;
-}
-.header-titulo div {
-  padding-bottom: 5vh;
-}
-.header-titulo li a {
-  padding: 5vh;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 2vh;
-}
-.header-titulo p {
-  width: auto;
-  font-size: 3vh;
-  justify-self: top;
-  align-self: top;
-}
-.header-titulo ul {
-  display: flex;
-  gap: 5vw;
-  list-style: none;
-}
-
-.li-violeta {
-  border-radius: 24px;
-  background-color: #682383;
-  padding: 2vh;
-  color: white;
-}
-
-.li-blanco {
-  border-radius: 24px;
-  background-color: white;
-  padding: 2vh;
-  color: #682383;
-}
-
 .secciones-1 {
   height: auto;
   display: flex;
@@ -260,6 +205,7 @@ header nav ul:visited {
   text-align: center;
   gap: 3vh;
   padding: 3vh;
+  color: #682383;
 }
 .secciones-1 img {
   width: 100%;
@@ -289,7 +235,7 @@ header nav ul:visited {
   color: white;
   justify-content: center;
   align-items: center;
-  font-size: 3vh;
+  font-size: 5vh;
   text-align: center;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -305,7 +251,7 @@ header nav ul:visited {
   padding-top: 3vh;
 }
 .section-2 p {
-  font-size: 2.5vh;
+  font-size: 4vh;
   padding: 1vh;
 }
 @media (max-width: 375px) {
@@ -331,7 +277,7 @@ header nav ul:visited {
   display: flex;
   flex: column;
   padding: 5vh;
-  font-size: 2.8vh;
+  font-size: 4vh;
   flex-direction: column;
   align-items: center;
 }
@@ -494,6 +440,20 @@ img {
     align-items: center;
     justify-content: center;
     gap: 20vw;
+  }
+}
+
+.titulo {
+  color: #682383;
+  font-size: 15vh;
+  text-align: center;
+  padding: 5vh;
+  font-weight: bold;
+}
+
+@media (max-width: 375px) {
+  .titulo {
+    font-size: 2rem;
   }
 }
 
