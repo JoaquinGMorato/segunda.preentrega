@@ -135,6 +135,7 @@ header nav ul:visited {
     align-items: center;
     justify-content: space-evenly;
     padding-left: 5vh;
+    max-height: 50vh;
   }
   .cardvioleta__info {
     padding-left: 5vh;
@@ -179,7 +180,7 @@ header nav ul:visited {
     grid-template-columns: 2fr 2fr;
     align-items: center;
     justify-content: space-evenly;
-    padding-left: 5vh;
+    max-height: 50vh;
   }
   .cardblanca__info {
     padding-left: 5vh;
@@ -194,7 +195,7 @@ header nav ul:visited {
     height: 50vh;
   }
 }
-.secciones-1 {
+.modalidades {
   height: auto;
   display: flex;
   padding: 5vh;
@@ -207,12 +208,12 @@ header nav ul:visited {
   padding: 3vh;
   color: #682383;
 }
-.secciones-1 img {
+.modalidades img {
   width: 100%;
   object-fit: cover;
 }
 @media (max-width: 375px) {
-  .secciones-1 {
+  .modalidades {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,13 +221,13 @@ header nav ul:visited {
     height: auto;
     width: auto;
   }
-  .secciones-1 img {
+  .modalidades img {
     width: 100%;
     object-fit: cover;
   }
 }
 
-.section-2 {
+.sumate {
   height: auto;
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -242,20 +243,20 @@ header nav ul:visited {
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   margin-bottom: 10px;
 }
-.section-2 img {
+.sumate img {
   object-fit: cover;
   width: 50vw;
   height: 100%;
 }
-.section-2 h2 {
+.sumate h2 {
   padding-top: 3vh;
 }
-.section-2 p {
+.sumate p {
   font-size: 4vh;
   padding: 1vh;
 }
 @media (max-width: 375px) {
-  .section-2 {
+  .sumate {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -264,16 +265,16 @@ header nav ul:visited {
     width: auto;
     padding: 0px;
   }
-  .section-2 img {
+  .sumate img {
     width: 100%;
     object-fit: cover;
   }
-  .section-2 div {
+  .sumate div {
     padding: 1vw;
   }
 }
 
-.section-3 {
+.cita {
   display: flex;
   flex: column;
   padding: 5vh;
@@ -281,11 +282,11 @@ header nav ul:visited {
   flex-direction: column;
   align-items: center;
 }
-.section-3 p {
+.cita p {
   text-align: center;
 }
 @media (max-width: 375px) {
-  .section-3 {
+  .cita {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -293,7 +294,7 @@ header nav ul:visited {
     padding: 1.5vw;
     width: auto;
   }
-  .section-3 p {
+  .cita p {
     text-align: center;
   }
 }
@@ -302,7 +303,7 @@ form label {
   display: none;
 }
 
-.section-4 {
+.contactoind {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -316,24 +317,24 @@ form label {
   padding-bottom: 3vh;
   text-align: center;
 }
-.section-4 h3 {
+.contactoind h3 {
   padding-top: 2vh;
 }
-.section-4 p {
+.contactoind p {
   font-size: 1rem;
 }
-.section-4 form {
+.contactoind form {
   display: flex;
   gap: 3vw;
   padding-bottom: 2vh;
 }
-.section-4 form input {
+.contactoind form input {
   font-size: 2vh;
   padding: 1vh;
   border-radius: 10px;
   text-align: center;
 }
-.section-4 form .submit:hover {
+.contactoind form .submit:hover {
   background: #682383;
   font-size: 2.2vh;
   color: white;
@@ -341,7 +342,7 @@ form label {
   padding: 1vh;
 }
 @media (max-width: 375px) {
-  .section-4 {
+  .contactoind {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -350,7 +351,7 @@ form label {
     width: auto;
     height: auto;
   }
-  .section-4 form {
+  .contactoind form {
     display: flex;
     flex-direction: column;
     justify-items: center;
